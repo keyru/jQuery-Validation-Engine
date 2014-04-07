@@ -588,6 +588,7 @@
 
 							methods._validateField(firstOfGroup, options, skipAjaxValidation);
 							options.showArrow = true;
+							break;
 
 						}
 						errorMsg = methods._getErrorMessage(form, field, rules[i], rules, i, options, methods._groupRequired);
